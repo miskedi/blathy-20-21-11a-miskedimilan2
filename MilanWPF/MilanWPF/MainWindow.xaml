@@ -31,9 +31,9 @@
         </ListBox>
             <DockPanel HorizontalAlignment="Stretch" Grid.Row="0" Grid.Column="1">
             <StackPanel  Orientation="Vertical" Background="LightGray">
-                <Label Content="First name:" Height="30"></Label>
-                <Label Content="Last name:" Height="30"></Label>
-                <Label Content="Alias" Height="30"></Label>
+                <Label Content="player:" Height="30"></Label>
+                <Label Content="club:" Height="30"></Label>
+                <Label Content="position" Height="30"></Label>
             </StackPanel>
             <StackPanel Orientation="Vertical" Background="LightGray">
                 <TextBox Height="30" IsEnabled="{Binding Path=SelectedNotNull}" Text="{Binding Path=Selected.FirstName, UpdateSourceTrigger=PropertyChanged}"></TextBox>

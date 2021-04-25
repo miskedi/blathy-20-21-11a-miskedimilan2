@@ -14,13 +14,13 @@ namespace MilanWPF
 
         }
 
-        private string firstName;
-        private string lastName;
-        private string alias;
+        private string player;
+        private string club;
+        private string position;
 
-        public string FirstName { get => firstName; set => Set(ref firstName, value); }
-        public string LastName { get => lastName; set => Set(ref lastName, value); }
-        public string Alias { get => alias; set => Set(ref alias, value); }
+        public string FirstName { get => player; set => Set(ref player, value); }
+        public string LastName { get => club; set => Set(ref club, value); }
+        public string Alias { get => position; set => Set(ref position, value); }
 
 
     }
